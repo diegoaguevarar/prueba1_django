@@ -1,7 +1,5 @@
 FROM python:2.7
 
-MAINTAINER Mushfiq
-
 ENV PYTHONUNBUFFERED 1
 
 RUN git clone https://github.com/diegoaguevarar/prueba1_django.git apirest

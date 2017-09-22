@@ -4,9 +4,9 @@ MAINTAINER Mushfiq
 
 ENV PYTHONUNBUFFERED 1
 
-RUN git clone https://github.com/mushfiq/djmsc.git djmsc
+RUN git clone https://github.com/diegoaguevarar/prueba1_django.git apirest
 
-WORKDIR djmsc
+WORKDIR apirest
 
 RUN pip install -r requirements.txt
 

@@ -14,5 +14,13 @@ class ViewTests(TestCase):
         response = self.client.get("/person/?format=json")
         assert response.status_code, 200
 
+    def test_usuario_endpoint_200(self):
+        response = self.client.get("/usuario/?format=json")
+        assert response.status_code, 200
+
+    def test_transaccion_endpoint_200(self):
+        response = self.client.get("/transaccion/?format=json")
+        assert response.status_code, 200
+
     def tearDown(self):
         pass
